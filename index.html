@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Counter App</title>
+    </head>
+    <body>
+        <div class="container-0">
+            <div class="container-1">
+                <h3 class="t1">HOME</h3>
+                <div class = "counter">
+                  <p id="home-counter" class="counter-t">00</p>
+                </div>
+                <div class = "container-2">
+                  <button onclick="bh1()" id="btn-h-1" class="btn-1">+1</button>
+                  <button onclick="bh2()" id="btn-h-2" class="btn-1">+2</button>
+                  <button onclick="bh3()" id="btn-h-3" class="btn-1">+3</button>
+            </div>
+            <button onclick="reset()" class="res">Restart</button>
+            </div>
+
+            <div class="container-1">
+                <h3 class="t1">GUEST</h3>
+                <div class="counter">
+                  <p id="guest-counter" class="counter-t">00</p>
+                </div>
+                <div class = "container-2">
+                      <button onclick="bg1()" id="btn-g-1" class="btn-1">+1</button>
+                      <button onclick="bg2()" id="btn-g-2" class="btn-1">+2</button>
+                      <button onclick="bg3()" id="btn-g-3" class="btn-1">+3</button>
+                </div>
+                <button onclick="reset()" class="res">Restart</button>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
